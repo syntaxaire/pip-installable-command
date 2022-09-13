@@ -3,7 +3,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
-name = "pip installable command"
+name = "test_cli"
 version = "1.0"
 description = "A minimal demo of a pip installable command line utility"
 authors = ["Jeff Robertson <jeff@ion8.net>"]
@@ -12,4 +12,4 @@ authors = ["Jeff Robertson <jeff@ion8.net>"]
 python = "^3.10"
 
 [tool.poetry.scripts]
-test-cli = "test_package.test_module:main"
+test-cli = "test_cli.test_module:main"
